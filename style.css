@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+            /******************* Heading section*******************/
+
+.header-section {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}            
+.header-container {
+    display: flex;
+    gap: 72px;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.header-img {
+    width: 100%;
+    vertical-align: middle;
+}
+.header-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.header-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13.5px;
+    font-weight: 400;
+    margin: 22.4px 0;
+}
+.shop-btn {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 32.25px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    cursor: pointer;
+}
+.header-content {
+    width: 525px;
+}
+
+            /******************* Feature section*******************/
+
+.feature-section {
+    text-align: center;
+    
+}
+.feature-container {
+    max-width: 423px;
+    margin: 170px auto 36px auto;
+}
+.feature-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 18px;
+} 
+.feature-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13.5;
+    font-weight: 400;
+}          
+
+
+                /******************* Flower section*******************/
+
+
+.three-flower {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: end;
+    
+} 
+.three-flower-title {
+    text-align: center;
+    text-decoration: underline;
+
+} 
+.three-flower-pic {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-bottom: 24px;
+    height: 400px;
+    width: 348px;
+    padding-top: 40px;
+    
+}   
+.three-flower-box img{
+    width:100%;
+    
+}           
